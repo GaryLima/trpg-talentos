@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: trpg-talentos
+    data:
+        mongodb:
+            username: glage
+            password: glage
+            host: host.docker.internal
+            port: 27017
+            database: talentos
+            authentication-database: admin
+server:
+    port: 8081
